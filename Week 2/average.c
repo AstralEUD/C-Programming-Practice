@@ -3,15 +3,15 @@
 
 int main(void) {
 	int x, y;
-	printf("Ã¹¹ø¤Š ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+	printf("ì²«ë²ˆì¨° ìˆ«ìë¥¼ ì…ë ¥í•˜ì‹œì˜¤: ");
 	scanf("%d",&x);
-	// Ã¹¹ø¤Š ¼ıÀÚ x¸¦ ÀÔ·Â¹Ş À½  (input first number, x)
-	printf("µÎ¹ø¤Š ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+	// ì²«ë²ˆì¨° ìˆ«ì xë¥¼ ì…ë ¥ë°› ìŒ  (input first number, x)
+	printf("ë‘ë²ˆì¨° ìˆ«ìë¥¼ ì…ë ¥í•˜ì‹œì˜¤: ");
 	scanf("%d",&y);
-	// µÎ¹ø¤Š ¼ıÀÚ y¸¦ ÀÔ·Â¹ŞÀ½ (input second number, y)
-	printf("%d ¿Í %d ÀÇ »ê¼úÆò±ÕÀº %d \n",x,y,(x+y)/2);
-	// »ê¼úÆò±Õ (arithmetic mean) =  a+b / 2 
-	printf("%d ¿Í %d ÀÇ Á¶È­Æò±ÕÀº %d \n",x,y,(2*x*y)/(x+y));
-	// Á¶È­Æò±Õ (geometric mean) = 2ab / a+b 
+	// ë‘ë²ˆì¨° ìˆ«ì yë¥¼ ì…ë ¥ë°›ìŒ (input second number, y)
+	printf("%d ì™€ %d ì˜ ì‚°ìˆ í‰ê· ì€ %d \n",x,y,(x+y)/2);
+	// ì‚°ìˆ í‰ê·  (arithmetic mean) =  a+b / 2 
+	printf("%d ì™€ %d ì˜ ì¡°í™”í‰ê· ì€ %d \n",x,y,(2*x*y)/(x+y));
+	// ì¡°í™”í‰ê·  (geometric mean) = 2ab / a+b 
 	return 0;
 }

@@ -3,17 +3,17 @@
  
 int main(int argc, char *argv[]) {
 	int x, y;
-	printf("Ã¹¹ø¤Š ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+	printf("ì²«ë²ˆì¨° ìˆ«ìë¥¼ ì…ë ¥í•˜ì‹œì˜¤: ");
 	scanf("%d",&x);
-	printf("µÎ¹ø¤Š ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+	printf("ë‘ë²ˆì¨° ìˆ«ìë¥¼ ì…ë ¥í•˜ì‹œì˜¤: ");
 	scanf("%d",&y);
 	printf("%d + %d = %d \n",x,y,x+y);
-	// ´õÇÏ±â  (addition)
+	// ë”í•˜ê¸°  (addition)
 	printf("%d - %d = %d \n",x,y,x-y);
-	// x¸¦ y·Î »©±â (Subtraction)
+	// xë¥¼ yë¡œ ë¹¼ê¸° (Subtraction)
 	printf("%d * %d = %d \n",x,y,x*y);
-	// °öÇÏ±â (Multiplication)
+	// ê³±í•˜ê¸° (Multiplication)
 	printf("%d / %d = %d \n",x,y,x/y);
-	// x¸¦ y·Î ³ª´©±â  (division)
+	// xë¥¼ yë¡œ ë‚˜ëˆ„ê¸°  (division)
 	return 0;
 }
