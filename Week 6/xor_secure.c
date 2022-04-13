@@ -1,36 +1,36 @@
 #include <stdio.h>
-//20220507 CPP 1, XOR Secure 
+//CPP 1, XOR Secure 
 int main (void) {
 	int v, y, z;
 	char original[100];
 	char encrypted[100];
 	char key[100];
-	// º¯¼ö ¼±¾ğ 
+	// ë³€ìˆ˜ ì„ ì–¸ 
 	
 	printf("Input the original : ");
 	scanf ("%s",original);
 	printf("input the key : ");
 	scanf ("%s",key);
-	// ¾ÏÈ£È­ÇÒ key, ¿ø¹® ÀÔ·Â¹ŞÀ½ 
+	// ì•”í˜¸í™”í•  key, ì›ë¬¸ ì…ë ¥ë°›ìŒ 
 	
 	for (v=0; original[v]!='\0'; v++) {
 		original[v] = original[v] ^ key[v];
 	}
-	// ¾ÏÈ£È­ (0¿¡¼­ ½ÃÀÛÇÏ¿©, original ÀÇ v¹øÂ° ¹æÀÌ NULLÀÌ µÉ¶§±îÁö ¹İº¹, XOR ·Î °¢ ¹æ ¹İÀü 
+	// ì•”í˜¸í™” (0ì—ì„œ ì‹œì‘í•˜ì—¬, original ì˜ vë²ˆì§¸ ë°©ì´ NULLì´ ë ë•Œê¹Œì§€ ë°˜ë³µ, XOR ë¡œ ê° ë°© ë°˜ì „ 
 	
 	printf ("Output is : %s\n\n",original);
-	// ¾ÏÈ£È­ Á¾·á 
+	// ì•”í˜¸í™” ì¢…ë£Œ 
 	
 	printf("input the key : ");
 	scanf ("%s",key);
-	// º¹È£È­ ½ÃÀÛ,key ÀÔ·Â¹Ş À½  
+	// ë³µí˜¸í™” ì‹œì‘,key ì…ë ¥ë°› ìŒ  
 	
 	for (v=0; original[v]!='\0'; v++) {
 		original[v] = original[v] ^ key[v];
 	}
-	//º¹È£È­ (0¿¡¼­ ½ÃÀÛÇÏ¿©, originalÀÇ v¹øÂ° ¹æÀÌ NULLÀÌ µÉ¶§±îÁö ¹İº¹, XOR ·Î °¢ ¹æ ¹İÀü 
+	//ë³µí˜¸í™” (0ì—ì„œ ì‹œì‘í•˜ì—¬, originalì˜ vë²ˆì§¸ ë°©ì´ NULLì´ ë ë•Œê¹Œì§€ ë°˜ë³µ, XOR ë¡œ ê° ë°© ë°˜ì „ 
 	 
 	
 	printf ("Decrypted Output is : %s",original);
-	// º¹È£È­ Á¾ ·á  
+	// ë³µí˜¸í™” ì¢… ë£Œ  
 }
