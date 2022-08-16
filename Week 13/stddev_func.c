@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+// 함수를 사용하라는데... 뭔말인지 몰루겠
 int casenum = 0;
 int list[100] = {};
 int average () {

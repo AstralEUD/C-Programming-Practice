@@ -9,6 +9,7 @@ int main () {
 	float storage_bmi[100] = {0};
 	float storage_grade[100] = {0};
 	int storage_count[10] = {0};
+	allav = 0.0;
 	printf("얼마나 많은 학생의 정보를 입력하시겠습니까..");
 	/* TEST SET :: 
 	5

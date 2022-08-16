@@ -1,4 +1,5 @@
 #include <stdio.h>
+// 함수를 사용하라는데... 뭔말인지 몰루겠
 int list[100] = {0};
 int casenum = 0;
 void fn_input() {

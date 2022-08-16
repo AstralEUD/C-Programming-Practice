@@ -3,9 +3,9 @@
 
 int main (void) {
 	int i,k, tmp, n, t;
-	int list[100] = {0};
+	int list[100] = {};
 	//int list[100] = {16,7,9,1,3};
-	printf("�󸶳� ���� �� �Է�? : ");
+	printf("얼마나 많은 수 입력? : ");
 	scanf("%d",&n); 
 	for (t=0; t<n; t++) {
 		scanf("%d",&list[t]);
