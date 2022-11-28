@@ -8,3 +8,4 @@ According to copyright, this repo is including only problem and solutions. (not 
  * I'm not responsible for any mistakes.
  
  This is just storage for my assignment.
+ 단순 과제 저장용 레포지터리 입니다.
