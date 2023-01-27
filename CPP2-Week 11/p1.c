@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-// 0ºÎÅÍ i-1±îÁö´Â Á¤·ÄµÇ¾î ÀÖ°í iºÎÅÍ n±îÁö´Â ºñÁ¤·Ä
-//i¹øÂ° ÀÚ·á¸¦ Á¤·ÄµÈ ±¸°£¿¡ ³¢¿ö³Ö±â
-//i¹øÂ° ÀÚ·á¸¦ t¿¡ º¹»ç
-//t°¡ µé¾î°¡¾ß ÇÒ ÀÚ¸®¸¦ Ã£±â : jº¯¼ö »ç¿ë (i-1ºÎÅÍ 0±îÁö)
-//t°¡ j¹øÂ° ÀÚ·áº¸´Ù ÀÛÀ¸¸é °è¼ÓÁøÇà (º¹»çÇÏ¸é¼­)
-//¾Æ´Ï¸é ¹þ¾î³ª¼­ j+1ÀÚ¸®¿¡ tº¹»çÇÏ°í ³¡³¿.
+// 0ë¶€í„° i-1ê¹Œì§€ëŠ” ì •ë ¬ë˜ì–´ ìžˆê³  ië¶€í„° nê¹Œì§€ëŠ” ë¹„ì •ë ¬
+//ië²ˆì§¸ ìžë£Œë¥¼ ì •ë ¬ëœ êµ¬ê°„ì— ë¼ì›Œë„£ê¸°
+//ië²ˆì§¸ ìžë£Œë¥¼ tì— ë³µì‚¬
+//tê°€ ë“¤ì–´ê°€ì•¼ í•  ìžë¦¬ë¥¼ ì°¾ê¸° : jë³€ìˆ˜ ì‚¬ìš© (i-1ë¶€í„° 0ê¹Œì§€)
+//tê°€ jë²ˆì§¸ ìžë£Œë³´ë‹¤ ìž‘ìœ¼ë©´ ê³„ì†ì§„í–‰ (ë³µì‚¬í•˜ë©´ì„œ)
+//ì•„ë‹ˆë©´ ë²—ì–´ë‚˜ì„œ j+1ìžë¦¬ì— të³µì‚¬í•˜ê³  ëëƒ„.
 struct std {
 	int h, w;
 	float bmi;
@@ -62,7 +62,7 @@ main() {
 	
 	//tmp = (struct std *) malloc (sizeof (struct std));
 	for (i=0; i<n; i++) {
-		printf("%d ¹øÂ° ÇÐ»ýÀÇ Å°, ¸ö¹«°Ô¸¦ ¶ç¿ö¼­ ÀÔ·ÂÇÏ¼¼¿ä.",i);
+		printf("%d ë²ˆì§¸ í•™ìƒì˜ í‚¤, ëª¸ë¬´ê²Œë¥¼ ë„ì›Œì„œ ìž…ë ¥í•˜ì„¸ìš”.",i);
 		scanf("%d %d",&tmp.h,&tmp.w);
 		tmp.bmi = (float) 10000 * tmp.w/(tmp.h * tmp.h);
 		top = push(top, tmp);
